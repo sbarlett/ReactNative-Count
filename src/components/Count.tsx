@@ -14,7 +14,8 @@ export const Count = () => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Contador: {count}</Text>
+      <Text style={styles.title}>Contador</Text>
+      <Text style={styles.title}>{count}</Text>
       <Fab
         handleCount={() => setCount(count + 1)}
         title={'+'}
@@ -33,10 +34,12 @@ export const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
+    backgroundColor: 'black',
   },
   title: {
     textAlign: 'center',
     fontSize: 30,
-    color: 'black',
+    fontWeight: 'bold',
+    color: 'white',
   },
 });

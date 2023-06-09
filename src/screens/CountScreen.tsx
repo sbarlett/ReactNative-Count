@@ -1,8 +1,8 @@
 import React from 'react';
-import { Count } from '../components/Count';
+import {Count} from '../components/Count';
 
 export const CountScreen = () => {
   return (
-    <Count/>
+      <Count />
   );
 };
